@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\Grpc.Core\Version.csproj.include" />
   <Import Project="..\Grpc.Core\Common.csproj.include" />
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="NUnit" Version="3.6.0" />
     <PackageReference Include="NUnitLite" Version="3.6.0" />
     <PackageReference Include="OpenCover" Version="4.6.519" />
